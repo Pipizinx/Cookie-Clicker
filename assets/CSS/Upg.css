@@ -1,0 +1,129 @@
+.upgBarClick {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: bisque;
+    left: 1100px;
+    bottom: 500px;
+}
+
+.upgClick {
+    background-color: #00000000 ;
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+}
+
+.upgBarAuto {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: bisque;
+    left: 1100px;
+    bottom: 500px;
+}
+
+.upgAuto {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+}
+
+/* ----- Imagem Click ----- */
+
+.ClickImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    z-index: 1000;
+}
+
+/* ----- Changer Bars ----- */
+
+.changerBar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 1100px;
+    top: 110px;
+}
+
+.closeChangerBar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background-color: #00000000;
+    left: 1400px;
+    top: 80px;
+}
+
+.closeBar {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.closeBar:hover {
+    background-color: #8b0808;
+    color: #cccccc;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.upgButton {
+    background-color: #984d10;
+    color: #FFF0D9;
+    width: 60px;
+    height: 30px;
+    font-size: 18;
+    font-weight: bold;
+    border: none;
+    transition: all 0.7s ease;
+}
+
+.upgButton.active {
+    background-color: #81766e;
+    color: #FFF0D9;
+    width: 70px;
+    height: 30px;
+    font-size: 18;
+    font-weight: bold;
+    border: none;
+}
+
+.autoButton {
+    background-color: #984d10;
+    color: #FFF0D9;
+    width: 60px;
+    height: 30px;
+    font-size: 18;
+    font-weight: bold;
+    border: none;  
+    transition: all 0.7s ease; 
+}
+
+.autoButton.active {
+    background-color: #81766e;
+    color: #FFF0D9;
+    width: 70px;
+    height: 30px;
+    font-size: 18;
+    font-weight: bold;
+    border: none;
+}
